@@ -1,0 +1,22 @@
+= Developer documentation
+
+:moduliths: ../../../target/spring-modulith-docs
+
+== Overview
+plantuml::{moduliths}/components.puml[format=svg,title="Overall component overview"]
+
+== Customer
+plantuml::{moduliths}/module-customer.puml[format=svg,title="Customer component overview"]
+include::{moduliths}/module-customer.adoc[]
+
+== Inventory
+plantuml::{moduliths}/module-catalog.puml[format=svg,title="Catalog component overview"]
+include::{moduliths}/module-catalog.adoc[]
+
+== Orders
+plantuml::{moduliths}/module-order.puml[format=svg,title="Order component overview"]
+include::{moduliths}/module-order.adoc[]
+
+== Invoices
+plantuml::{moduliths}/module-invoice.puml[format=svg,title="Invoice component overview"]
+include::{moduliths}/module-invoice.adoc[]
